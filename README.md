@@ -31,8 +31,10 @@ cd CWNLP-FLASK
 
 # Create a Virtual Environment
 
-python -m venv venv
+python -m venv .venv
 # Activate it:
+# For macOS / Linux
+source .venv/bin/activate 
 # For CMD
 venv\Scripts\activate.bat
 # For PowerShell
